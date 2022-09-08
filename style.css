@@ -1,0 +1,258 @@
+body,
+*{
+    font-family: sans-serif;
+    font-style: normal;
+}
+.hero-page{
+    background-image: url("./images/ship.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+
+}
+.tm{
+margin-top: -20px;
+font-size: 10px;
+}
+.search-icon{
+    margin-right: 50px;
+}
+.call-icon{
+    margin-right: 30px;
+}
+.drop-style{
+    margin-top: 10px;
+}
+.nav-ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.big-text{
+    font-size: 70pt;
+}
+
+.width-strive{
+    width: 430px;
+}
+
+.download-button{
+    background-color: #f56e3d;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 26px;
+    color: white;
+    margin-top: 60px;
+}
+.scrol{
+    /* height: 100px; */
+    margin-top: 100px;
+}
+.span-line{
+    height: 60px;
+    border-left: 1px solid white;
+}
+
+.whatsap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-whatsapp{
+    font-size: 50px;
+}
+.side-bar{
+    margin-top: 80px;
+    
+}
+.all-products{
+    color: #f56e3d;
+}
+.ul-side{
+    padding-left: 10px;
+}
+.ul-side li{
+    color: darkgrey;
+}
+ul li {
+    margin-left: 0%;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.ul-side li.active{
+    color: #f56e3d;
+}
+.left-side{
+    width: 200px;
+}
+
+.ul-side li:hover{
+    color: #f56e3d;
+}
+
+.product-title{
+    color: #000000;
+    font-size: 40px;
+    margin-top: -15px;
+}
+
+.wraper-contents .content {
+    display: none;
+    padding-left: 100px;
+}
+.wraper-contents .content.active{
+    display: block;
+    /* position: absolute; */
+}
+
+.download-cataloge{
+    background-color: #f56e3d;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 26px;
+    color: white;
+    /* margin-top: 60px; */
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.wrapper .content-product{
+    display: flex;
+    justify-content: space-between;
+}
+.content-product >div img{
+    width: 462px;
+    height: 251px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.single-product{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-color: rgba(7, 76, 187, 0.927);
+}
+.model-pic{
+    width: 100%;
+}
+
+.model-pic img{
+    width: 100%;
+    height: 300px;
+}
+.details{
+    padding: 10px 10px;
+    width: 23rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+table{
+    margin-left: 35px;
+}
+.btn-group{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-group button{
+    background-color: #f56e3d;
+    border: none;
+    margin-left: -28px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    margin-top: 40px;
+}
+
+.for-more {
+    height: 100px;
+    background-color: #f56e3d;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+
+.more{
+    border: none;
+    padding: 5px 12px;
+    border-radius: 11px;
+    color: #f56e3d;
+    background-color: white;
+    font-size: 1.5rem;
+    margin-left: 210px;
+}
+.primary{
+    width: 1075px;
+}
+
+.footer-contacts {
+    background-image: url("./images/themap.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px 100px 100px;
+}
+.icons {
+    margin-right: 30px;
+    color: #f56e3d;
+    font-size: 30px;
+}
+
+.media{
+    padding-bottom: 40px;
+}
+.social{
+    padding-left: 100px;
+}
+
+form{
+    background-color: transparent;
+}
+ form input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width: 410px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ form input ::-webkit-input-placeholder{
+    color: white !important;
+ }
+
+ form button{
+    color: aliceblue;
+    background-color: #f56e3d;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 30px;
+    float: right;
+ }
+
+ .footer {
+     height: 100px;
+     background-color: #f56e3d;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    /* font-size: 25px; */
+ }
+.terms{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -60px;
+    width: 600px;
+}
