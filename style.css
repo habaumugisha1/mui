@@ -9,7 +9,15 @@ body,
     background-size: cover;
     background-position: 0%;
 
+
 }
+
+.align-divs{
+/* background-color: aquamarine; */
+padding-left: 100px;
+padding-right: 50px;
+}
+
 .tm{
 margin-top: -20px;
 font-size: 10px;
@@ -86,7 +94,7 @@ ul li {
     color: #f56e3d;
 }
 .left-side{
-    width: 200px;
+    width: 180px;
 }
 
 .ul-side li:hover{
@@ -100,11 +108,13 @@ ul li {
 }
 
 .wraper-contents .content {
+    margin-right: -30px;
     display: none;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 .wraper-contents .content.active{
     display: block;
+    margin-right: -30px;
     /* position: absolute; */
 }
 
@@ -119,7 +129,7 @@ ul li {
 .title {
     display: flex;
     justify-content: space-between;
-    padding-right: 20px;
+    padding-right: 22px;
 }
 
 .wrapper .content-product{
@@ -127,7 +137,7 @@ ul li {
     justify-content: space-between;
 }
 .content-product >div img{
-    width: 462px;
+    width: 430px;
     height: 251px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -202,7 +212,7 @@ table{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 120px 100px 150px;
 }
 .icons {
     margin-right: 30px;
@@ -248,11 +258,13 @@ form{
      display: flex;
      justify-content: space-around;
      align-items: center;
+     padding:  10px 100px 10px 110px;
     /* font-size: 25px; */
+
  }
 .terms{
     display: flex;
     justify-content: space-between;
-    margin-right: -60px;
+    margin-right: -70px;
     width: 600px;
 }
