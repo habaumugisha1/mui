@@ -85,9 +85,21 @@ font-size: 10px;
 .icon-whatsapp{
     font-size: 50px;
 }
+
 .side-bar{
+    padding-left: 170px;
+    padding-right: 100px;
     margin-top: 80px;
-    
+    position: relative;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    /* background-color: wheat; */
+}
+.left-side{
+    width: 180px;
 }
 .all-products{
     color: #f56e3d;
@@ -106,9 +118,7 @@ ul li {
 .ul-side li.active{
     color: #f56e3d;
 }
-.left-side{
-    width: 180px;
-}
+
 
 .ul-side li:hover{
     color: #f56e3d;
@@ -116,21 +126,20 @@ ul li {
 
 .product-title{
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -15px;
-    line-height: 54.5px;
-    font-weight: 500;
+    line-height: 50px;
+    font-weight: 400;
 }
 
 .wraper-contents .content {
-    margin-right: -30px;
+    width: 980px;
     display: none;
-    padding-left: 80px;
+    padding-left: 20px;
+    padding-right: 0px;
 }
 .wraper-contents .content.active{
     display: block;
-    margin-right: -30px;
-    /* position: absolute; */
 }
 
 .download-cataloge{
@@ -139,6 +148,7 @@ ul li {
     border-radius: 12px;
     padding: 10px 26px;
     color: white;
+    font-size: 18px;
     /* margin-top: 60px; */
 }
 .title {
@@ -150,10 +160,12 @@ ul li {
 .wrapper .content-product{
     display: flex;
     justify-content: space-between;
+    /* padding-right: -30px; */
+    /* background-color: #f56e3d; */
 }
 .content-product >div img{
-    width: 430px;
-    height: 251px;
+    width: 450px;
+    height: 260px;
     margin-bottom: 20px;
     margin-top: 10px;
     cursor: pointer;
