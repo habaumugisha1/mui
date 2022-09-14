@@ -25,9 +25,13 @@ padding-left: 100px;
 padding-right: 50px;
 }
 
-.tm{
-margin-top: -20px;
-font-size: 10px;
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo .tm{
+    font-size: 10px;
+    margin-left: 5px;
 }
 .search-icon{
     margin-right: 50px;
@@ -91,6 +95,8 @@ font-size: 10px;
     padding-right: 100px;
     margin-top: 80px;
     position: relative;
+    background-size: cover;
+    background-position: 0%;
 }
 .wrapper{
     display: flex;
